@@ -1,0 +1,44 @@
+name: earthml
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - cartopy
+  - colorcet
+  - dask
+  - dask-ml
+  - pillow
+  - piexif
+  - exifread
+  - descartes
+  - pysal
+  - seaborn
+  - plotly
+  - opencv
+  - datashader ==0.6.9
+  - geopandas
+  - geoviews ==1.6.2
+  - graphviz
+  - holoviews ==1.11.2
+  - hvplot ==0.4.0
+  - intake >=0.4.1
+  - intake-xarray >=0.3.0
+  - numpy
+  - pandas
+  - panel ==0.4.0
+  - python-graphviz
+  - rasterio
+  - s3fs
+  - scikit-image
+  - scikit-learn
+  - tqdm
+  - xarray
+  - imgaug
+  - joblib
+  - keras-gpu==2.2.4
+  - h5py==2.10.0
+  - defaults::scipy
+  - pip:
+    - rio-toa
+    - nc-time-axis
+    - netCDF4
